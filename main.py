@@ -39,7 +39,7 @@ class trade(BaseModel):
 
 @app.get("/")
 def index():
-    return {"Hello": "World_heeelo"}
+    return {"Name": "steeleye limited"}
 
 
 #  ----------------------SEAERCH TRADES (queary parameter) ----------------------

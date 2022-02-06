@@ -231,11 +231,12 @@ TradeDetails ={
         "quantity":450,
 
     },
-    34:{
+    40:{
         "buySellIndicator":"buy",
         "price":700,
         "quantity":250,
-        }
+        },
+        
 
     
    
