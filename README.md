@@ -1,4 +1,4 @@
-# FASTAPI
+# FastAPI
 
 This is API code developed over FastAPI usign python.
 
