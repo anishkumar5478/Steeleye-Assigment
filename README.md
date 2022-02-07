@@ -99,7 +99,8 @@ This endpoint returns trades by the trade id enteres in query parameter field.
 
 This endpoint creates a trade in the datbase
 
-```**/pagination/**```
+**BONOUS POINT**
+```**/pagination/**``` 
 This is a pagination endpoint where large number of trades are returned in pages(user has to enter page nunmber and page size)
 
 ```**/sort/**```
