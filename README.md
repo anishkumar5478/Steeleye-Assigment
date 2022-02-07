@@ -51,28 +51,28 @@ This endpoint returns the defaul home page for the api.
 
 
 ```**/get-by-counterparty**```
-This endpoint returns TRADES BY COUNTER_PARTY(e.g: Tesla , jaguar,mahiendra.etc).
+This endpoint returns TRADES BY COUNTER_PARTY(i.e: Tesla , jaguar,mahiendra.etc).
 
 
 ```**/trades/get-by-instrumentId**```
-This endpoint returns TRADES BY INSTRUMENT_ID (e.g: AAPL, AMZN...etc). 
+This endpoint returns TRADES BY INSTRUMENT_ID (i.e: AAPL, AMZN...etc). 
 
 ```**/trades/get-by-instrumentName**```
 
-This endpoint returns TRADES BY INSTRUMENT_NAME(e.g: ABC, DEF, ...etc).
+This endpoint returns TRADES BY INSTRUMENT_NAME(i.e: ABC, DEF, ...etc).
 
 ```**/trades/get-by-trader**```
 
-This endpoint returns TRADES BY TRADER(eg. John, Jane,ambani ...etc)
+This endpoint returns TRADES BY TRADER(i.e: John, Jane,ambani ...etc)
 
 ```**/trades/values/get-by-minPrice**```
-This end point accepts an integers value as query parameter and return the trades minimum price mentioned(e.g: 100,200,550...etc).
+This end point accepts an integers value as query parameter and return the trades minimum price mentioned.
 
 ```**/trade/minprice**```
-This endpoint returns trade with minimum price with threhosld value sent as query parameter(e.g: 100,200,550...etc)
+This endpoint returns trade with minimum price with threhosld value sent as query parameter.
 
 ```**/trade/maxprice**```
-This endpoint returns trades with maximum price with threhosld value sent as query parameter(e.g: 100,200,550...etc).
+This endpoint returns trades with maximum price with threhosld value sent as query parameter.
 
 ```**/trade/get_by_min_max_price**```
 This endpoint returns trades within range of price values sent as query parameters(e.g: minPrice=2&maxPrice=100 will return 2 <= tradeDetails.price <=500)
@@ -84,10 +84,10 @@ This endpoint returns trades within  date range of sent as query parameters.
 This endpoint returns tades by trade type.
 
 ```**/trade/get_by_buySellIndicator**```
-This endpoint returns tades by Buy-Sell Indicator(e.g: sull,buy).
+This endpoint returns tades by Buy-Sell Indicator.
 
 ```**/trade/get_by_asset_class**```
-This endpoint returns tades by assets class(e.g: Equity,FixedIncome,Derivative).
+This endpoint returns tades by assets class(i.e: Equity,FixedIncome,Derivative).
 
 ```**/trade/**```
 This endpoint returns all the listed trades
@@ -100,6 +100,8 @@ This endpoint returns trades by the trade id enteres in query parameter field.
 This endpoint creates a trade in the datbase
 
 **BONOUS POINT**
+-----------------------------------------------------------------------------------
+
 ```**/pagination/**``` 
 This is a pagination endpoint where large number of trades are returned in pages(user has to enter page nunmber and page size)
 
